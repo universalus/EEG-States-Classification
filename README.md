@@ -30,7 +30,7 @@ Dataset Link : https://physionet.org/content/eegmat/1.0.0/
 Input Shape: (72, x, 21, 500) ; where x is inconsistent
 
 This shape corresponds to (samples/subjects, segments/trials, channels/electrodes, time points/samples per segment)
-
+<br><br>
 
 Options to deal with inconsistent data and problems :
 
@@ -43,7 +43,7 @@ iii. Segmentation : Disrupts temporal continuity
 Solution: We Flatten the data to make it consistent and use PCA (Principal Component Analysis) or UMAP (Uniform Manifold Approximation and Projection) for Data Reduction 
 
 Problems with this Solution : Loss of Structural Information and potential overfitting of models trained
-
+<br><br>
 
 Better Solution : Use Reshape, since channels and samples per segment are consistent in the data.
 
@@ -83,7 +83,6 @@ Significance of selected bands -
 
 ### Modeling and Classification -
 
-Overview :
 
 EEGNet: A compact convolutional neural network tailored for EEG signal classification.
 
@@ -127,17 +126,11 @@ Overall TSCeption is the best performing model across most metrics.
 
 The project requires the following Python packages:
 
-numpy
-
-scipy
-
-pandas
-
-matplotlib
-
-scikit-learn
-
-tensorflow
-
-mne
+1. numpy
+2. scipy
+3. pandas
+4. matplotlib
+5. scikit-learn
+6. tensorflow
+7. mne
 
