@@ -127,6 +127,7 @@ F1-Score: TSCeption again leads with the highest F1-score, which means it mainta
 
 Overall TSCeption is the best performing model across most metrics.
 
+<br>
 
 ### Dependencies -
 
