@@ -5,6 +5,8 @@
 Overview - 
 
 This repository contains a comprehensive analysis and classification of EEG data. The notebook EEG_classify.ipynb focuses on exploring various preprocessing, feature extraction, and machine learning techniques to classify EEG signals into different states (Rest state or Task State)
+
+![EEG Classification](https://github.com/universalus/EEG-States-Classification/blob/main/eeg_test_img.webp)
 <br><br>
 
 Table of Contents
@@ -78,6 +80,8 @@ Significance of selected bands -
 15. High-Frequency Oscillations (100 - 500 Hz): Linked to various cognitive and motor functions; often observed during rapid information processing.
 16. Ripples (80 - 200 Hz): Associated with memory consolidation and information transfer in the hippocampus; seen during sharp wave-ripple events in sleep.
 17. Fast Ripples (200 - 500 Hz): Related to pathological activity in epilepsy and high-frequency cognitive processes; may indicate regions prone to seizures.
+
+![EEG Classification](https://github.com/universalus/EEG-States-Classification/blob/main/eeg_waves_img.webp)
 <br><br>
 
 
