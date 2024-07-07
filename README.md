@@ -52,7 +52,7 @@ We can reshape it to (samples/subjects * segments/trials, channels/electrodes, t
 Advantages: Makes the data consistent, maintains Structural Information, increases size of samples in data in significant amount which reduces overfitting, and several EEG classification models support Temporal data
 <br><br>
 
-### Preprocessing & Feature extraction -
+### Preprocessing & Feature Extraction -
 
 -> Standardization is preferred due to the varying nature of EEG signals and the need to maintain the relative relationships between different channels and time points.
 
