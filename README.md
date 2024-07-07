@@ -104,8 +104,8 @@ The models achieved the following evaluation metrics on the test set:
 | TSCeption  | 90.50%   | 90.31%    | 90.50%  | 90.34%   |
 | ATCNet     | 80.36%   | 83.64%    | 94.93%  | 88.81%   |
 | LSTM RNN   | 82.09%   | 81.04%    | 82.09%  | 80.94%   |
-<br><br>
 
+<br><br>
 ### Conclusion -
 
 Accuracy: TSCeption has the highest accuracy at 90.49%, indicating it correctly predicts the highest proportion of instances overall.
