@@ -1,4 +1,4 @@
-# EEG-States-Classification
+# EEG-Cognitive-State-Classification 
  To tackle the task of classifying cognitive states using EEG data and deep learning models
 <br><br>
 
